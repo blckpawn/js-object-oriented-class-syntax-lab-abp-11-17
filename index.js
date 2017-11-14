@@ -24,9 +24,7 @@ class BoardMember{
 }
 
 class Ceo extends BoardMember{
-  constructor(polishedBoardMember){
-    this.polishedBoardMember = polishedBoardMember;
-  }
+
   hireEmployee(){
     return `Welcome aboard`
   }
